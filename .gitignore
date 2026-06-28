@@ -1,0 +1,20 @@
+# Internal agent/design tooling
+.claude/
+.agents/
+
+# Challenge data — provided separately, not committed to this repo
+data/*.parquet
+data/*.json
+data/*.csv
+
+# Common environment cruft (stack is candidate's choice; cover the usual suspects)
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+.DS_Store
+
+# Local reference to the other interview — not part of the candidate repo
+data_interview
