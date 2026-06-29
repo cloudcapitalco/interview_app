@@ -12,7 +12,7 @@ needs it to be.
 
 ## Run it
 
-The data files must be present in [`../data`](../data) (`usage.parquet` and
+The data files must be present in [`../data`](../data) (`candidate_dataset.parquet` and
 `pricing_options_filtered.parquet`). Then, from this directory:
 
 ```sh

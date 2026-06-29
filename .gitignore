@@ -2,7 +2,9 @@
 .claude/
 .agents/
 
-# Challenge data — provided separately, not committed to this repo
+# Challenge data — provided separately (via pre-signed links), not committed to this repo
+data/candidate_dataset.parquet
+data/pricing_options_filtered.parquet
 data/*.parquet
 data/*.json
 data/*.csv

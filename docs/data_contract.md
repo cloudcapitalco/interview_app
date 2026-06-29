@@ -13,7 +13,7 @@ of a proposed commitment laid over that usage.
 
 ---
 
-## 1. The usage firehose — `data/usage.parquet`
+## 1. The usage firehose — `data/candidate_dataset.parquet`
 
 The customer's normalized hourly cost-and-usage data — the substrate the customer
 explores and verifies against. One row per hour per usage line (a distinct

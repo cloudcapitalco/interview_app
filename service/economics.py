@@ -20,7 +20,7 @@ import duckdb
 # Default to the repo's data/ directory regardless of where the service is launched from.
 _REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 _DATA = os.path.join(_REPO_ROOT, "data")
-USAGE_PATH = os.environ.get("USAGE_PARQUET", os.path.join(_DATA, "usage.parquet"))
+USAGE_PATH = os.environ.get("USAGE_PARQUET", os.path.join(_DATA, "candidate_dataset.parquet"))
 PRICING_PATH = os.environ.get("PRICING_PARQUET", os.path.join(_DATA, "pricing_options_filtered.parquet"))
 
 # Profit is a fixed share of the savings the commitment generates.

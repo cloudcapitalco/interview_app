@@ -35,7 +35,7 @@ The data is **not distributed with this repository** — it is provided separate
 Place the files in the `data/` directory (where the challenges, the data contract, and
 the service expect them):
 
-- `data/usage.parquet` — the hourly cost-and-usage firehose
+- `data/candidate_dataset.parquet` — the hourly cost-and-usage firehose
 - `data/pricing_options_filtered.parquet` — the commitment pricing table
 
 The **economics of a proposed commitment** don't come from a file — they come from a
